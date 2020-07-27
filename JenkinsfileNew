@@ -6,7 +6,9 @@ pipeline {
 
     stages{
 		stage('Test'){
-			build job:'lunch-and-learn-test'
+			steps{
+				build job:'lunch-and-learn-test'
+			}
 		}
 		
         stage('Build'){
