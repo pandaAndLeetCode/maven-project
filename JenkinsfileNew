@@ -13,7 +13,7 @@ pipeline {
 		
         stage('Build'){
             steps {
-                bat 'mvn clean package'
+                build job:'lunch-and-learn-main-project'
             }
             post {
                 success {
