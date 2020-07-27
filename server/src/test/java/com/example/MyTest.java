@@ -13,7 +13,7 @@ public class MyTest {
 
 
   final String magicWord = "CORRECT";
-  String currentWord = "ANOTHER WRONG WORD";
+  String currentWord = "CORRECT";
   
   @Test
   public void verifyCurrentWord() {
