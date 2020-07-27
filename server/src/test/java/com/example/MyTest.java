@@ -12,7 +12,7 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 public class MyTest {
 
   final String magicWord = "CORRECT";
-  String currentWord = "CORRECT";
+  String currentWord = "Pizza";
   
   @Test
   public void verifyCurrentWord() {
