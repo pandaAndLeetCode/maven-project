@@ -11,11 +11,11 @@ pipeline {
 			}
 			post {
                 success {
-                    echo 'Successfully pass the test'
+                    echo 'Successfully pass the test! Congratulations!!!'
                 }
 
                 failure {
-                    echo 'Test failed!!!'
+                    echo 'TEST FAILED!!!'
                 }
             }
 		}
