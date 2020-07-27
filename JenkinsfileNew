@@ -9,6 +9,15 @@ pipeline {
 			steps{
 				build job:'lunch-and-learn-test'
 			}
+			post {
+                success {
+                    echo 'Successfully pass the test'
+                }
+
+                failure {
+                    echo 'Test failed!!!'
+                }
+            }
 		}
 		
         stage('Build'){
