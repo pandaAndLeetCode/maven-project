@@ -5,11 +5,6 @@ pipeline {
     }
 
     stages{
-		stage('Test'){
-			steps {
-				build job: 'lunch-and-learn-test'
-			}
-		}
         stage('Build'){
             steps {
                 bat 'mvn clean package'
@@ -23,7 +18,7 @@ pipeline {
         }
         stage('Deploy to staging'){
             steps{
-                build job:'lunch-and-learn-deploy-to-staging'
+                build job:'deploy-to-staging'
             }
         }
 
@@ -33,7 +28,7 @@ pipeline {
                     input message:'If it is OK to deploy to the Production?' 
                 }
 
-                build job: 'lunch-and-learn-deploy-to-production'
+                build job: 'deploy-to-production'
             }
             post {
                 success {
