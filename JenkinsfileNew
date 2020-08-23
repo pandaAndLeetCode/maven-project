@@ -12,7 +12,7 @@ pipeline {
         stage('Build Main Project'){
             steps {
                 build job:'lunch-and-learn-main-project', 
-				parameters: [string(name: 'GIT_TAG', value:"v0.0.8")]
+				parameters: [string(name: 'GIT_TAG', value:"v1988")]
             }
             post {
                 success {
