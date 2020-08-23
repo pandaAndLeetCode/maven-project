@@ -1,7 +1,7 @@
 <html>
-	<body style='background-color: organgered;'>
+	<body style='background-color: blue;'>
 		<br>Hello! Welcome to Abraham's Lunch and Learn for Jenkins! I am honored! </br>
-		<br>Tag v0.0.23</br>
-		<br>Background color is orangered</br>
+		<br>Tag v0.0.24</br>
+		<br>Background color is blue</br>
 	</body>
 </html>
