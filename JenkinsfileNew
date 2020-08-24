@@ -4,7 +4,7 @@ pipeline {
         maven 'local maven'
     }
     parameters {
-        string(defaultValue: "master", description: 'This is a parameter', name: 'real_value')
+        string(defaultValue: "master", description: 'This is a parameter', name: 'which_version')
     }
 
 
@@ -12,7 +12,7 @@ pipeline {
         stage('Build Main Project'){
             steps {
                 build job:'lunch-and-learn-main-project', 
-				parameters: [string(name: 'GIT_TAG', value: real_value)]
+				parameters: [string(name: 'GIT_TAG', value: which_version)]
             }
             post {
                 success {
