@@ -1,11 +1,11 @@
 <html>
-	<body style='background-color: olive;'>
+	<body style='background-color: white;'>
 		<br>Hello! Welcome to Abraham's Lunch and Learn for Jenkins! I am honored! </br>
 		<br></br>
-		<br>Tag v1988</br>
+		<br>Tag v001</br>
 		<br></br>
 		<br></br>
-		<br>Background color is olive</br>
+		<br>Background color is white</br>
 		<br></br>
 		<br></br>
 		<br></br>
