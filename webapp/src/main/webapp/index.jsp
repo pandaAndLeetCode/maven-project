@@ -1,8 +1,8 @@
 <html>
-	<body style='background-color: white;'>
+	<body style='background-color: yellow;'>
 		<br>Hello! Welcome to Abraham's Lunch and Learn for Jenkins! I am honored! </br>
 		<br></br>
-		<br>Tag v001.white</br>
+		<br>Tag v002.yellow</br>
 		<br></br>
 		<br></br>
 		<br>Background color is white</br>
