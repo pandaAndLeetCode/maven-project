@@ -11,7 +11,7 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 
 public class MyTest {
 
-  final String magicWord = "WRONG";
+  final String magicWord = "CORRECT";
   String currentWord = "CORRECT";
   
   @Test
