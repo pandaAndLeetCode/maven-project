@@ -1,11 +1,11 @@
 <html>
-	<body style='background-color: red;'>
+	<body style='background-color: white;'>
 		<br>Hello! Welcome to Abraham's Lunch and Learn for Jenkins! I am honored! </br>
 		<br></br>
-		<br>Tag v004.red</br>
+		<br>Tag v001.white</br>
 		<br></br>
 		<br></br>
-		<br>Background color is red</br>
+		<br>Background color is white</br>
 		<br></br>
 		<br></br>
 		<br></br>
